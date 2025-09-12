@@ -108,5 +108,24 @@ main article {
         margin: 10px;
     }
 }
-
+polyline{
+	opacity: .3;
+	stroke: black;
+	stroke-width: 2px;
+	fill: none;
+}
+.page-area {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 20px;
+    justify-content: center;
+     margin: 0 auto;   
+}
+#budgetChart2 {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
 
