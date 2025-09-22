@@ -178,7 +178,7 @@
         }
 
         function getBudget() {
-            axios.get('/budget')
+           axios.get('http://localhost:3000/budget')
             .then(function (res){    
                     console.log(res);
                  for (var i = 0; i < res.data.myBudget.length; i++) 
@@ -245,11 +245,16 @@
     var key = function(d){ return d.data.title; };
 
     
-    d3.json("/budget", function(error, data) {
-      if (error) throw error;
+    // d3.json("/budget", function(error, data) {
+    //   if (error) throw error;
 
-      change(data.myBudget);
-    });
+    //   change(data.myBudget);
+    // });
+
+    d3.json("http://localhost:3000/budget", function(error, data) {
+    if (error) throw error;
+    change(data.myBudget);
+});
 
     function change(data) {
       /* PIE SLICES */
@@ -332,6 +337,7 @@
       polyline.exit().remove();
     }
   </script>
+
 
 </body>
 </html>
