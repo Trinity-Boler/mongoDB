@@ -1,7 +1,7 @@
 {
-  "name": "personal-budget",
+  "name": "week08",
   "version": "1.0.0",
-  "description": "The path to NGInx main folder: /usr/share/nginx/html",
+  "description": "",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -9,18 +9,19 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Trinity-Boler/personal-budget.git"
+    "url": "git+https://github.com/Trinity-Boler/mongoDB.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "type": "commonjs",
   "bugs": {
-    "url": "https://github.com/Trinity-Boler/personal-budget/issues"
+    "url": "https://github.com/Trinity-Boler/mongoDB/issues"
   },
-  "homepage": "https://github.com/Trinity-Boler/personal-budget#readme",
+  "homepage": "https://github.com/Trinity-Boler/mongoDB#readme",
   "dependencies": {
     "cors": "^2.8.5",
-    "express": "^5.1.0"
+    "express": "^5.1.0",
+    "mongoose": "^8.19.1"
   }
 }
