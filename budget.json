@@ -1,32 +1,51 @@
-{
-  "myBudget": [
+[
     {
-      "title": "Eat out",
-      "budget": 100
+        "_id": "68f13b253e5cce78a8ae8962",
+        "title": "Groceries",
+        "value": 250,
+        "color": "#FF5733",
+        "__v": 0
     },
     {
-      "title": "Rent",
-      "budget": 2000
+        "_id": "68f175a33e5cce78a8ae8975",
+        "title": "Eat out",
+        "value": 100,
+        "color": "#ffcd56",
+        "__v": 0
     },
     {
-      "title": "Groceries",
-      "budget": 400
+        "_id": "68f175d63e5cce78a8ae8977",
+        "title": "Groceries",
+        "value": 400,
+        "color": "#36a2eb",
+        "__v": 0
     },
     {
-      "title": "Gas",
-      "budget": 120
+        "_id": "68f175ea3e5cce78a8ae8979",
+        "title": "Gas",
+        "value": 120,
+        "color": "#fd6b19",
+        "__v": 0
     },
     {
-      "title": "Utilities",
-      "budget": 300
+        "_id": "68f175f73e5cce78a8ae897b",
+        "title": "Utilities",
+        "value": 300,
+        "color": "#cc65fe",
+        "__v": 0
     },
     {
-      "title": "Entertainment",
-      "budget": 150
+        "_id": "68f176033e5cce78a8ae897d",
+        "title": "Entertainment",
+        "value": 150,
+        "color": "#2ecc71",
+        "__v": 0
     },
     {
-      "title": "Savings",
-      "budget": 500
+        "_id": "68f1760a3e5cce78a8ae897f",
+        "title": "Savings",
+        "value": 500,
+        "color": "#e74c3c",
+        "__v": 0
     }
-  ]
-}
+]
